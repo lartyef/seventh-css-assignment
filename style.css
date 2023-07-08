@@ -1,0 +1,245 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body {
+    background-color: aliceblue;
+}
+.Frontend {
+    width: 195px;
+    height: 110px;
+    padding-top: 40px;
+    padding-left: 20px;
+    color: #ffffff;
+    background-image: linear-gradient(to right, rgb(74, 74, 185), rgb(146, 41, 129));
+    border-radius: 5px;
+}
+.Frontend p {
+    font-size: 10px;
+}
+.row {
+    display:flex;
+    margin-left:100px;
+    margin-top: 40px;
+    } 
+    .col-2{
+    flex:1.5;
+    } 
+    .col-6{
+    flex:6;
+    }
+    .first-flex {
+        width: 195px;
+        height: 150px;
+        background-color: #ffffff;
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+    .flex1 {
+        display: flex;
+        gap: 10px;
+        padding-left: 10px;
+        padding-top: 20px;
+        font-size: 10px;
+    }
+    .bg-blue {
+        background-color: blue;
+        border-radius: 5px;
+        color: #ffffff;
+        padding: 10px;
+
+    }
+    .bg-faint-blue {
+        background-color: #e2e2e2;
+        border-radius: 5px;
+        color: #ffffff;
+        padding: 10px;
+    }
+    .third-flex {
+        display: flex;
+        gap: 10px;
+        padding: 5px;
+        padding-left: 10px;
+        padding-top: 10px;
+    }
+    .bg-color {
+        background-color: #e2e2e2;
+        border-radius: 5px;
+        color: #ffffff;
+        padding: 5px;
+    }
+    .last-color {
+        background-color: #e2e2e2;
+        border-radius: 5px;
+        color: #ffffff;
+        margin-left: 10px;
+        margin-top: 5px;
+        width: 70px;
+        padding: 5px;
+    }
+    .third-container {
+        width: 195px;
+        height: 140px;
+        background-color: #ffffff;
+        margin-top: 10px;
+        display: flex;
+        gap: 40px;
+        border-radius: 5px;
+    }
+    ul {
+        margin-top: 10px;
+        margin-left: 10px;
+        padding: 10px;
+        line-height: 25px;
+        color: rgba(189, 194, 199, 0.747);
+    }
+    ul {
+        list-style-type: none;
+      }
+      
+      li::before {
+        content: "\2021"; /* Bullet character */
+        display: inline-block;
+        width: 5px; /* Adjust the width as needed */
+        margin-right: 7px; /* Adjust the margin as needed */
+      }
+      
+    .road {
+        margin-left: 25px;
+        margin-top: 10px;
+        color: rgb(82, 61, 31);
+    }
+    .anchor {
+        margin-top: 10px;
+    }
+    .line-height {
+        list-style: 10px;
+        padding: 10px;
+    }
+    .mt {
+        margin-top: 17px;
+    }
+    .mt2 {
+        margin-top: 6px;
+    }
+    .mt3 {
+        margin-top: 6px;
+    }
+    .custom-list {
+        list-style-type: none;
+      }
+      
+      .custom-list li::before {
+        content: "\2022"; /* Bullet character */
+        color: brown; /* Color for Item 1 */
+      }
+      
+      .custom-list li:nth-child(2)::before {
+        color: pink; /* Color for Item 2 */
+      }
+      
+      .custom-list li:nth-child(3)::before {
+        color: green; /* Color for Item 3 */
+      }
+      .p-container {
+        display: flex;
+        gap: 25px;
+        align-items: center;
+        background-color: rgba(41, 14, 66, 0.753);
+        width: 790px;
+        height: 70px;
+        border-radius: 10px;
+        color: #ffff;
+      }
+      .feedback {
+        align-items: end;
+        margin-left: 17em;
+        background-color: rgb(74, 74, 185);
+        padding: 10px 20px 10px 20px;
+        width: 150px;
+        border-radius: 5px;
+        color: #ffff;
+        padding-left: 10px;
+      }
+      .suggestion {
+        color: #ffff;
+        font-weight:bold ;
+      }
+      .p-container .fa-clock {
+        margin-left: 15px;
+      }
+      .merge {
+        background-color: #e2e2e2;
+        width: 40px;
+        height: 55px;
+        padding: 0.7em;
+        border-radius: 5px;
+        text-align: center;
+        margin-top: 20px;
+        margin-left: 30px;
+      }
+      .icon::before {
+        content: "\25B2"; /* The content property specifies the icon or text to be displayed */
+      }
+      .container-1 {
+        display: flex;
+        gap: 20px;
+        background-color: #ffff;
+        width: 790px;
+        height: 140px;
+        border-radius: 10px;
+        margin-top: 20px;
+        padding: 5px;
+      }
+      .add-tags {
+        font-weight: bold;
+        color: rgb(4, 4, 27);
+        margin-top: 20px;
+        margin-left: 10px;
+      }
+      .mg-down {
+        margin-top: 3px;
+       
+
+      }
+      .easy-to-reach {
+        margin-left: 10px;
+        padding: 10px 0 0 0;
+      }
+      .enlargement {
+        margin-left: 10px;
+        background-color: #e2e2e2;
+        padding: 5px;
+        width: 98px;
+        margin-top: 10px;
+        border-radius: 5px;
+        color: rgb(4, 4, 27);
+        text-align: center;
+      }
+      .far-right {
+        margin-left: 17em;
+        margin-top: 3em;
+        display: flex;
+      }
+      #f-right {
+        margin-left: 4em;
+      }
+      #width {
+        width: 66px;
+        text-align: center;
+      }
+      #f-less {
+        margin-left: -2.5em;
+        padding: 5px;
+      }
+      #small {
+        width: 40px;
+      }
+      #f-l {
+        margin-left: -3.8em;
+      }
+      .fa {
+        color: #e2e2e2;
+        margin-left: 5px;
+      }
